@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.9.0/html-to-image.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+  <div class="poster">
+    <div class="lens-flare"></div>
+    <div class="stripes">
+      <div class="stripe-block str1">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="stripe-block str2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="stripe-block str3">
+        <div></div>
+        <div></div>
+        <div>
+          <ddd /div>
+        </div>
+      </div>
+      <div class="info">
+        <header>
+          <h3>Huis van Techno</h3>
+          <p>Presents</p>
+        </header>
+  
+        <main>
+          <svg id="text-1" viewBox="0 0 500 100">
+            <rect mask="url(#knockout-text-1)" />
+            <mask id="knockout-text-1">
+              <rect />
+              <text x="50%" y="80" text-anchor="middle">huis van</text>
+            </mask>
+          </svg>
+          <br />
+          <svg id="text-2" viewBox="0 0 450 100">
+            <rect mask="url(#knockout-text-2)" />
+  
+            <mask id="knockout-text-2">
+              <rect />
+              <text x="50%" y="80" text-anchor="middle">TECHNO</text>
+            </mask>
+          </svg>
+        </main>
+  
+        <section id="date">
+          <div class="circle-item">16</div>
+          <div class="circle-item">NOV</div>
+          <div class="circle-item">2024</div>
+        </section>
+  
+        <section id="talent">
+          <div class="dj-title">Featuring 4 hour set</div>
+          <center>
+            <ul class="dj-list">
+              <li>Angelo D'Onorio</li>
+              <li>//</li>
+              <li>Clarence Brandon</li>
+              <li>//</li>
+              <li>Marc de Koning</li>
+              <li>//</li>
+              <li>Phil Hent</li>
+            </ul>
+          </center>
+        </section>
+  
+        <footer>
+          <div class="tickets">
+            <center>Tickets €10 / 18+ Ages</center>
+          </div>
+          <div class="venue">
+            <h3>Toekomstmuziek</h3>
+            <p>Danzigerbocht 29 – Amsterdam</p>
+            <p><small>www.toekomstmuziek.com</small></p>
+          </div>
+        </footer>
+  
+      </div>
+    </div>
+  
+    <div class="speaker-icon" id="speaker-icon">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 5L6 9H3V15H6L11 19V5Z" fill="white" />
+        <path d="M14.8284 9.17157C15.5786 9.92172 16 10.9391 16 12C16 13.0609 15.5786 14.0783 14.8284 14.8284" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M18.364 5.63604C20.536 7.80761 20.536 11.1924 18.364 13.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+    <audio id="audio-player" src="path-to-your-audio.mp3"></audio>
+    <div id="qrcode" class="qr-code"></div>
+  </body>
+</html>
